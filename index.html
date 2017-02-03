@@ -1,10 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css and main.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="css/main.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-</body>
+        <meta charset="UTF-8">
+        <title>LDS Scriptures</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper teal">
+                <a href="#" class="brand-logo center">LDS Scripture Citation Index</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" class="">Help</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--row for scripture body-->
+        <div class="row mainDiv">
+            <div class="col l12">
+                <div id="overview" class="center"><h5>Overview</h5></div>
+                Welcome to the LDS Scripture Citation Index. This index, found on the bottom left of your browser window, links from scriptures to the general conference talks, Journal of Discourses speeches, and writings in Teachings of the Prophet Joseph Smith that cite those scriptures.  So, for example, suppose you want to know who has cited 1 Ne. 3:7 in general conference; tap on the First Nephi button followed by the 1 Ne. 3 button; there you'll find the answer.  Who has quoted Matt. 5:48?  Use the New Testament index to find out.
+                This panel (top middle) lets you read the scriptures, including the King James Version and Joseph Smith Translation of the Bible, the Book of Mormon, Doctrine and Covenants, and the Pearl of Great Price. This is not the official LDS version of the standard works. Go to LDS.org/scriptures for the official publication. Among the differences between this version and the Church's official version are that we do not include their footnotes, chapter summaries, and study helps such as the Bible Dictionary and Topical Guide.
+                We have indexed the scriptures cited by speakers in LDS General Conference between 1942 and the present, and those cited by speakers recorded in the Journal of Discourses between 1839 and 1886.  The citations in Teachings of the Prophet Joseph Smith come from the special edition, Scriptural Teachings of the Prophet Joseph Smith, edited by Richard C. Galbraith and published by Deseret Book in 1993 (ISBN 0875796478).
+                To begin, click on one of the books and chapters in the index and you'll see a list of references for verses in that chapter.  A reference looks like this: 2 Pet. 1:4. When you select the 2 Pet. 1:4 item, you will see a list of citations for 2 Peter chapter 1 verse 4. Citations occur in three forms.
+            </div>
+        </div>
+        <!--row for scripture and citation index-->
+        <div class="row">
+            <div class="col l6">
+                <nav>
+                    <div class="nav-wrapper teal">
+                        <div class="">
+                            <a href="#" class="breadcrumb">The Scriptures</a>
+                            <a href="#" class="breadcrumb">New Testament</a>
+                            <a href="#" class="breadcrumb">The Acts</a>
+                        </div>
+                    </div>
+                </nav>
+                <div id="scriptures">
+                    <div id="kjv" class="col l6">
+                        <h6>King James Version</h6>
+                        <button class="btn waves-effect waves-teal">1</button>
+                        <button class="btn waves-effect waves-teal">2</button>
+                        <button class="btn waves-effect waves-teal">3</button>
+                        <button class="btn waves-effect waves-teal">4</button>
+                        <button class="btn waves-effect waves-teal">5</button>
+                        <button class="btn waves-effect waves-teal">6</button>
+                        <button class="btn waves-effect waves-teal">7</button>
+                        <button class="btn waves-effect waves-teal">8</button>
+                        <button class="btn waves-effect waves-teal">9</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">10</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">11</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">12</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">13</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">14</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">15</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">16</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">17</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">18</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">19</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">20</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">21</button>
+                    </div>
+                    <div id="jst" class="col l6">
+                        <h6>Joseph Smith Translation</h6>
+                        <button class="btn waves-effect waves-teal">1</button>
+                        <button class="btn waves-effect waves-teal">2</button>
+                        <button class="btn waves-effect waves-teal">3</button>
+                        <button class="btn waves-effect waves-teal">4</button>
+                        <button class="btn waves-effect waves-teal">5</button>
+                        <button class="btn waves-effect waves-teal">6</button>
+                        <button class="btn waves-effect waves-teal">7</button>
+                        <button class="btn waves-effect waves-teal">8</button>
+                        <button class="btn waves-effect waves-teal">9</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">10</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">11</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">12</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">13</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">14</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">15</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">16</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">17</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">18</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">19</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">20</button>
+                        <button class="btn waves-effect waves-teal doubleDigit">21</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 l6">
+                <nav>
+                    <div class="nav-wrapper cyan">
+                        <ul class="left">
+                            <li><a href="#" class="">Citation</a></li>
+                            <li class="active"><a href="#" >Contents</a></li>
+                            <li><a href="#" class="">Speakers</a></li>
+                            <li><a href="#" class=""><i class="material-icons">search</i></a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#"><i class="dropdown-button material-icons">more_vert</i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div>
+                    <a href="" class="card-panel valign">General Conference</a>
+                    <a href="" class="card-panel">Journal of Discourses</a>
+                    <a href="" class="card-panel">Topical Index</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
 </html>
